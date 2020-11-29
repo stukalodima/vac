@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd" class="com.company.vac.web.screens.ExtAppLoginWindow"
+        xmlns:ext="http://schemas.haulmont.com/cuba/window-ext.xsd" messagesPack="com.company.vac.web.screens"
+        extends="com/haulmont/cuba/web/app/loginwindow/loginwindow.xml">
+    <layout>
+        <label id="poweredByLink" visible="false"/>
+    </layout>
+</window>

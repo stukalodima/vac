@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  postgres:
+    image: postgres:9
+    environment:
+      - POSTGRES_DB=vac
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5433:5432"
+  web:
+    depends_on:
+      - postgres
+    image: vac
+    volumes:
+      - /Users/vacadmin/vac-home:/opt/vac-home
+    ports:
+      - "8080:8080"

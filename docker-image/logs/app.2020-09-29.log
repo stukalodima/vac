@@ -1,0 +1,560 @@
+2020-09-29 15:17:24.107 INFO  [main] org.eclipse.jetty.util.log - Logging initialized @1356ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-09-29 15:17:24.285 WARN  [main] org.eclipse.jetty.xml.XmlConfiguration - Deprecated constructor public org.eclipse.jetty.util.ssl.SslContextFactory() in jar:file:/C:/Users/admin/StudioProjects/vac/docker-image/vac.jar!/jetty.xml
+2020-09-29 15:17:24.598 INFO  [main] org.eclipse.jetty.server.Server - jetty-9.4.z-SNAPSHOT; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 11.0.8+10-LTS
+2020-09-29 15:17:24.840 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /vac-core, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2020-09-29 15:17:24.882 INFO  [main] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-09-29 15:17:24.909 INFO  [main] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-09-29 15:17:24.975 INFO  [main] org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2020-09-29 15:17:24.991 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /vac-core
+2020-09-29 15:17:25.245 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba, com.haulmont.addon.restapi]
+2020-09-29 15:17:25.305 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/vac/app.properties
+2020-09-29 15:17:25.312 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2020-09-29 15:17:25.328 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: vac-core
+2020-09-29 15:17:25.409 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-09-29 15:17:25.435 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-09-29 15:17:25.710 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-09-29 15:17:25.824 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\admin\StudioProjects\vac\docker-image\vac-core\work\persistence.xml
+2020-09-29 15:17:28.716 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-09-29 15:17:28.863 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-09-29 15:17:31.375 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-09-29 15:17:31.479 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'restapi_scheduler'
+2020-09-29 15:17:31.563 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [vac-core.cuba:type=PersistenceManager, vac-core.cuba:type=ConfigStorage, vac-core.cuba:type=UserSessions, vac-core.cuba:type=UniqueNumbers, vac-core.cuba:type=Emailer, vac-core.cuba:type=EntityLog, vac-core.cuba:type=FileStorage, vac-core.cuba:type=LockManager, vac-core.cuba:type=CachingFacade, vac-core.cuba:type=ClusterManager, vac-core.cuba:type=ScriptingManager, vac-core.cuba:type=ServerInfo, vac-core.cuba:type=Scheduling, vac-core.cuba:type=PasswordEncryptionSupport, vac-core.cuba:type=JmxNodeIdentifier, vac-core.cuba:type=JmxLogControl, vac-core.cuba:type=ClassLoaderManager, vac-core.cuba:type=StatisticsCounter, vac-core.cuba:type=BruteForceProtection, vac-core.cuba:type=QueryCacheSupport]
+2020-09-29 15:17:31.709 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [vac-core.restapi:type=ServerTokenStore]
+2020-09-29 15:17:31.728 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-09-29 15:17:32.173 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 442 ms
+2020-09-29 15:17:32.651 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Updating data store [Main] ...
+2020-09-29 15:17:32.909 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Data store [Main] is up-to-date
+2020-09-29 15:17:32.912 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-09-29 15:17:33.551 INFO  [main/vac-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-09-29 15:17:34.215 INFO  [main/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: d77d0e3e-60a4-4823-6067-b67e317b885c [anonymous]
+2020-09-29 15:17:34.218 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id d77d0e3e-60a4-4823-6067-b67e317b885c
+2020-09-29 15:17:34.245 INFO  [main/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: ea080b37-15ad-fb12-ef85-838fccf0757b [anonymous]
+2020-09-29 15:17:34.247 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope REST initialized with id ea080b37-15ad-fb12-ef85-838fccf0757b
+2020-09-29 15:17:34.247 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-09-29 15:17:34.304 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 15:17:34.314 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler.vac_core - Initializing Spring RemotingServlet 'remoting'
+2020-09-29 15:17:34.334 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-09-29 15:17:34.401 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-09-29 15:17:34.883 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 546 ms
+2020-09-29 15:17:34.889 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@6bc407fd{/vac-core,jar:file:/C:/Users/admin/StudioProjects/vac/docker-image/vac.jar!/LIB-INF/app-core,AVAILABLE}
+2020-09-29 15:17:34.899 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /vac, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2020-09-29 15:17:35.036 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /vac
+2020-09-29 15:17:35.048 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba, com.haulmont.addon.restapi]
+2020-09-29 15:17:35.054 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/vac/web-app.properties
+2020-09-29 15:17:35.056 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2020-09-29 15:17:35.058 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: vac
+2020-09-29 15:17:35.063 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-09-29 15:17:35.176 WARN  [cuba_core_scheduler-4] com.haulmont.cuba.core.jmx.StatisticsCounter - Ñonnection pool not found for statistics counting
+2020-09-29 15:17:37.424 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/vac-core/remoting]
+2020-09-29 15:17:37.442 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-09-29 15:17:37.448 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [restapi_ServerTokenStore]
+2020-09-29 15:17:38.768 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-09-29 15:17:39.009 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [vac.cuba:type=ConfigStorage, vac.cuba:type=CachingFacade, vac.cuba:type=FileUploading, vac.cuba:type=JmxNodeIdentifier, vac.cuba:type=JmxLogControl, vac.cuba:type=ClassLoaderManager, vac.cuba:type=StatisticsCounter]
+2020-09-29 15:17:39.114 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 62 ms
+2020-09-29 15:17:39.115 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-09-29 15:17:39.431 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 314 ms
+2020-09-29 15:17:39.628 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler.vac - Initializing Spring RestAPIDispatcherServlet 'rest_api'
+2020-09-29 15:17:39.631 INFO  [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Initializing Servlet 'rest_api'
+2020-09-29 15:17:39.637 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - getContextConfigLocation - start:
+2020-09-29 15:17:40.400 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-09-29 15:17:41.363 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Detected CommonsMultipartResolver
+2020-09-29 15:17:41.370 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Detected CommonsMultipartResolver
+2020-09-29 15:17:41.373 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Published WebApplicationContext of servlet 'rest_api' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.rest_api]
+2020-09-29 15:17:41.373 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-29 15:17:41.373 INFO  [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Completed initialization in 1739 ms
+2020-09-29 15:17:41.382 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-09-29 15:17:41.391 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler.vac - Initializing Spring CubaDispatcherServlet 'dispatcher'
+2020-09-29 15:17:41.391 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-09-29 15:17:41.502 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 108 ms
+2020-09-29 15:17:41.504 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@8b5de1b{/vac,jar:file:/C:/Users/admin/StudioProjects/vac/docker-image/vac.jar!/LIB-INF/app,AVAILABLE}
+2020-09-29 15:17:41.537 INFO  [main] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1f97cf0d{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+2020-09-29 15:17:42.144 INFO  [main] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@2dbf741(jetty,h=[],w=[]) for SslContextFactory@5c403ceb[provider=null,keyStore=file:///C:/Users/admin/StudioProjects/vac/docker-image/keystore.jks,trustStore=file:///C:/Users/admin/StudioProjects/vac/docker-image/keystore.jks]
+2020-09-29 15:17:42.328 INFO  [main] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3a44431a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+2020-09-29 15:17:42.342 INFO  [main] org.eclipse.jetty.server.Server - Started @19593ms
+2020-09-29 15:18:12.774 WARN  [qtp1309176095-62] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-09-29 15:18:13.563 DEBUG [qtp1309176095-62] com.haulmont.cuba.web.App - Initializing application
+2020-09-29 15:18:13.579 DEBUG [qtp1309176095-62] com.haulmont.cuba.gui.theme.ThemeConstantsRepository - Loading theme constants
+2020-09-29 15:18:13.678 DEBUG [qtp1309176095-62] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Loading anonymous session
+2020-09-29 15:18:13.830 DEBUG [qtp1309176095-62] com.haulmont.cuba.web.security.WebAnonymousSessionHolder - Anonymous session loaded with id d77d0e3e-60a4-4823-6067-b67e317b885c
+2020-09-29 15:18:13.841 DEBUG [qtp1309176095-62/vac/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-09-29 15:18:13.843 DEBUG [qtp1309176095-62/vac/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-09-29 15:18:13.965 INFO  [qtp1309176095-62/vac/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 110 ms
+2020-09-29 15:18:37.651 INFO  [qtp1309176095-62/vac-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-09-29 15:18:37.684 INFO  [qtp1309176095-62/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 5e8b825a-4e79-2a8e-a5fb-a67f73c230ce [admin]
+2020-09-29 15:18:37.697 DEBUG [qtp1309176095-62/vac/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-09-29 15:18:37.698 DEBUG [qtp1309176095-62/vac/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-09-29 15:18:37.703 DEBUG [qtp1309176095-62/vac/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=Session@799bebba{id=node0amajpuabu1hw4670tp9y535h1,x=node0amajpuabu1hw4670tp9y535h1.node0,req=1,res=true}, timeout=1800sec, UserSession=5e8b825a-4e79-2a8e-a5fb-a67f73c230ce [admin]
+2020-09-29 15:18:37.861 INFO  [qtp1309176095-62/vac-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-09-29 15:18:37.878 DEBUG [qtp1309176095-62/vac-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-09-29 15:18:37.905 DEBUG [qtp1309176095-62/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 15:18:41.416 INFO  [qtp1309176095-62/vac/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-09-29 15:18:41.456 INFO  [qtp1309176095-62/vac-core/admin] com.haulmont.cuba.core.app.PersistenceManager - Loading statistics cache
+2020-09-29 15:18:41.656 DEBUG [qtp1309176095-62/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 15:18:41.751 DEBUG [qtp1309176095-62/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Presentation, view=com.haulmont.cuba.security.entity.Presentation/app, query=Query{queryString='select p from sec$Presentation p where p.componentId = :component and (p.user is null or p.user.id = :userId)', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 15:18:42.128 DEBUG [qtp1309176095-62/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$User, view=com.haulmont.cuba.security.entity.User/user.browse, query=Query{queryString=' select u from sec$User u ', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-09-29 15:25:55.172 INFO  [ClientCacheManager-pool-4-thread-1/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: f9b07e05-839b-310c-3058-f7ac2bb54cff [admin]
+2020-09-29 15:25:55.371 DEBUG [qtp1309176095-18/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Role, view=null, query=Query{queryString='select r from sec$Role r where r.defaultRole = true', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 15:25:55.395 DEBUG [qtp1309176095-18/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Group, view=com.haulmont.cuba.security.entity.Group/_minimal, query=Query{queryString='select g from sec$Group g', condition=null, sort=null, firstResult=0, maxResults=2}, max=2
+2020-09-29 15:25:55.534 DEBUG [qtp1309176095-18/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Role, view=com.haulmont.cuba.security.entity.Role/_minimal, query=Query{queryString='select r from sec$Role r', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 15:27:31.709 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 15:28:14.803 DEBUG [qtp1309176095-18/vac/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-09-29 15:29:25.511 DEBUG [qtp1309176095-61/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Role, view=null, query=Query{queryString='select r from sec$Role r order by r.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 15:29:41.837 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.User-40f982dc-4a20-3650-6f4d-b0062a4d85bd [new], com.haulmont.cuba.security.entity.UserRole-904011ba-7819-2598-4b48-8cf67da0adf7 [new], com.haulmont.cuba.security.entity.UserRole-5d344672-ddc6-dae5-9e34-89048d2c12fd [new]], removeInstances=[]
+2020-09-29 15:29:41.896 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@147298e5
+2020-09-29 15:29:41.896 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@147298e5 updates entities: [com.haulmont.cuba.security.entity.UserRole-904011ba-7819-2598-4b48-8cf67da0adf7 [new,managed], com.haulmont.cuba.security.entity.UserRole-5d344672-ddc6-dae5-9e34-89048d2c12fd [new,managed], com.haulmont.cuba.security.entity.User-40f982dc-4a20-3650-6f4d-b0062a4d85bd [new,managed]]
+2020-09-29 15:29:41.899 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2020-09-29 15:29:41.922 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2020-09-29 15:29:41.941 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@147298e5
+2020-09-29 15:29:41.965 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.ScreenHistoryEntity-71d5ec7b-bc16-8f2a-d868-f7cbb77d01cd [new]], removeInstances=[]
+2020-09-29 15:29:41.966 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@5e829381
+2020-09-29 15:29:41.966 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@5e829381 updates entities: [com.haulmont.cuba.security.entity.ScreenHistoryEntity-71d5ec7b-bc16-8f2a-d868-f7cbb77d01cd [new,managed]]
+2020-09-29 15:29:41.980 DEBUG [qtp1309176095-88/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@5e829381
+2020-09-29 15:37:31.710 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 15:38:55.476 DEBUG [qtp1309176095-103] com.haulmont.cuba.web.App - Initializing application
+2020-09-29 15:38:55.492 DEBUG [qtp1309176095-103/vac/anonymous] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: false
+2020-09-29 15:38:55.492 DEBUG [qtp1309176095-103/vac/anonymous] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-09-29 15:47:31.711 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 15:49:20.168 WARN  [qtp1309176095-135] org.eclipse.jetty.server.HttpChannel - /vac/rest/v2/oauth/token
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:250) ~[na:na]
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198) ~[na:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90) ~[na:na]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166) ~[na:na]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[na:na]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[na:na]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:168) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[na:na]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[na:na]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[na:na]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602) ~[vac.jar:na]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[na:na]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[na:na]
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[vac.jar:na]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:214) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[vac.jar:na]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[vac.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480) ~[vac.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[vac.jar:na]
+	at org.eclipse.jetty.server.Server.handle(Server.java:505) ~[vac.jar:na]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370) ~[vac.jar:na]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267) ~[vac.jar:na]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[vac.jar:na]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint.onFillable(SslConnection.java:427) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection.onFillable(SslConnection.java:321) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection$2.succeeded(SslConnection.java:159) ~[vac.jar:na]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917) ~[vac.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+2020-09-29 15:57:31.710 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 15:59:51.711 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.security.app.UserSessions - Removing session due to timeout: 5e8b825a-4e79-2a8e-a5fb-a67f73c230ce [admin], since: Tue Sep 29 15:18:37 MSK 2020, lastUsed: Tue Sep 29 15:29:41 MSK 2020
+2020-09-29 16:07:31.711 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 16:10:03.113 INFO  [qtp1309176095-155/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: e6c282a1-9bbe-f36d-7365-7fc9dceaf50f [admin]
+2020-09-29 16:10:03.120 DEBUG [qtp1309176095-155/vac/admin] com.haulmont.cuba.web.DefaultApp - connectionStateChanged connected: true, authenticated: true
+2020-09-29 16:10:03.121 DEBUG [qtp1309176095-155/vac/admin] com.haulmont.cuba.web.App - Closing all windows in all UIs
+2020-09-29 16:10:03.123 DEBUG [qtp1309176095-155/vac/admin] com.haulmont.cuba.web.AppUI - Application and UI locales are mismatched. App locale will be used.
+2020-09-29 16:10:03.124 DEBUG [qtp1309176095-155/vac/admin] com.haulmont.cuba.web.DefaultApp - Session reinitialized: HttpSession=Session@4a362af4{id=node01njx3e9wxihl417ot542a57863,x=node01njx3e9wxihl417ot542a57863.node0,req=1,res=true}, timeout=1800sec, UserSession=e6c282a1-9bbe-f36d-7365-7fc9dceaf50f [admin]
+2020-09-29 16:10:03.158 DEBUG [qtp1309176095-155/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$UserSubstitution, view=com.haulmont.cuba.security.entity.UserSubstitution/app, query=Query{queryString='select us from sec$UserSubstitution us where us.user.id = :userId and (us.endDate is null or us.endDate >= :currentDate) and (us.startDate is null or us.startDate <= :currentDate) and (us.substitutedUser.active = true or us.substitutedUser.active is null) order by us.substitutedUser.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:10:06.458 DEBUG [qtp1309176095-221/vac/admin] com.haulmont.cuba.web.AppUI - Ping middleware session
+2020-09-29 16:10:16.058 DEBUG [qtp1309176095-221/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:10:16.130 DEBUG [qtp1309176095-221/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$SessionLogEntry, view=com.haulmont.cuba.security.entity.SessionLogEntry/sessionLogEntry-view, query=Query{queryString=' select e from sec$SessionLogEntry e order by e.startedTs desc ', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-09-29 16:10:20.348 DEBUG [qtp1309176095-133/vac/admin] com.haulmont.cuba.client.sys.config.ConfigPersisterClientImpl - Setting property 'cuba.userSessionLogEnabled' to 'true', source=DATABASE
+2020-09-29 16:10:20.469 INFO  [ClientCacheManager-pool-4-thread-1/vac-core/admin] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-09-29 16:10:40.430 DEBUG [qtp1309176095-133/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$SessionLogEntry, view=com.haulmont.cuba.security.entity.SessionLogEntry/sessionLogEntry-view, query=Query{queryString=' select e from sec$SessionLogEntry e order by e.startedTs desc ', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-09-29 16:10:57.718 DEBUG [qtp1309176095-133/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sys$JmxInstance, view=com.haulmont.cuba.core.entity.JmxInstance/_local, query=Query{queryString='select jmx from sys$JmxInstance jmx', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:17:31.710 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 16:17:36.488 WARN  [qtp1309176095-227] org.eclipse.jetty.server.HttpChannel - /vac/rest/v2/oauth/token
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:250) ~[na:na]
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198) ~[na:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90) ~[na:na]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166) ~[na:na]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[na:na]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[na:na]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:168) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[na:na]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[na:na]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[na:na]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602) ~[vac.jar:na]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[na:na]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[na:na]
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[vac.jar:na]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:214) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[vac.jar:na]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[vac.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480) ~[vac.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[vac.jar:na]
+	at org.eclipse.jetty.server.Server.handle(Server.java:505) ~[vac.jar:na]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370) ~[vac.jar:na]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267) ~[vac.jar:na]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[vac.jar:na]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint.onFillable(SslConnection.java:427) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection.onFillable(SslConnection.java:321) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection$2.succeeded(SslConnection.java:159) ~[vac.jar:na]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917) ~[vac.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+2020-09-29 16:18:54.368 WARN  [qtp1309176095-155] org.eclipse.jetty.server.HttpChannel - /vac/rest/v2/oauth/token
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:250) ~[na:na]
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:198) ~[na:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:90) ~[na:na]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166) ~[na:na]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[na:na]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:195) ~[na:na]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:168) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:92) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[na:na]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[na:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[na:na]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[na:na]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[na:na]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602) ~[vac.jar:na]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[na:na]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[na:na]
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:93) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[vac.jar:na]
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:214) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146) ~[vac.jar:na]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257) ~[vac.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1711) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1347) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203) ~[vac.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480) ~[vac.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1678) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1249) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:152) ~[vac.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) ~[vac.jar:na]
+	at org.eclipse.jetty.server.Server.handle(Server.java:505) ~[vac.jar:na]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:370) ~[vac.jar:na]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:267) ~[vac.jar:na]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305) ~[vac.jar:na]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection$DecryptedEndPoint.onFillable(SslConnection.java:427) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection.onFillable(SslConnection.java:321) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ssl.SslConnection$2.succeeded(SslConnection.java:159) ~[vac.jar:na]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) ~[vac.jar:na]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:781) ~[vac.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:917) ~[vac.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+2020-09-29 16:20:07.485 DEBUG [qtp1309176095-260/vac/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-09-29 16:24:24.602 DEBUG [qtp1309176095-223/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Filter, view=com.haulmont.cuba.security.entity.FilterEntity/app, query=Query{queryString='select f from sec$Filter f left join f.user u where f.componentId = :component and (u.id = :userId or u is null) order by f.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:24:24.643 DEBUG [qtp1309176095-223/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Presentation, view=com.haulmont.cuba.security.entity.Presentation/app, query=Query{queryString='select p from sec$Presentation p where p.componentId = :component and (p.user is null or p.user.id = :userId)', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:24:24.736 DEBUG [qtp1309176095-223/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$User, view=com.haulmont.cuba.security.entity.User/user.browse, query=Query{queryString=' select u from sec$User u ', condition=null, sort=null, firstResult=0, maxResults=50}, max=50
+2020-09-29 16:24:29.851 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=sec$User, id=60885987-1b61-4247-94c7-dff348347f93, view=com.haulmont.cuba.security.entity.User/user.edit
+2020-09-29 16:24:29.905 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Role, view=com.haulmont.cuba.security.entity.Role/_minimal, query=Query{queryString='select r from sec$Role r', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:24:34.723 DEBUG [qtp1309176095-223/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$Role, view=null, query=Query{queryString='select r from sec$Role r order by r.name', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:24:42.476 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.User-60885987-1b61-4247-94c7-dff348347f93 [detached], com.haulmont.cuba.security.entity.UserRole-74e322c9-c6c2-b964-8a5f-6b75bd25076e [new], com.haulmont.cuba.security.entity.UserRole-6736effb-9dfc-4430-973a-69868606b09c [detached]], removeInstances=[]
+2020-09-29 16:24:42.514 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@537dd1da
+2020-09-29 16:24:42.514 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@537dd1da updates entities: [com.haulmont.cuba.security.entity.UserRole-6736effb-9dfc-4430-973a-69868606b09c [managed], com.haulmont.cuba.security.entity.User-60885987-1b61-4247-94c7-dff348347f93 [managed], com.haulmont.cuba.security.entity.UserRole-74e322c9-c6c2-b964-8a5f-6b75bd25076e [new,managed]]
+2020-09-29 16:24:42.527 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@537dd1da
+2020-09-29 16:24:42.535 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.ScreenHistoryEntity-598ce0fd-f305-6c41-47da-ac944f301b18 [new]], removeInstances=[]
+2020-09-29 16:24:42.535 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@50da1ab1
+2020-09-29 16:24:42.535 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@50da1ab1 updates entities: [com.haulmont.cuba.security.entity.ScreenHistoryEntity-598ce0fd-f305-6c41-47da-ac944f301b18 [new,managed]]
+2020-09-29 16:24:42.549 DEBUG [qtp1309176095-227/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@50da1ab1
+2020-09-29 16:27:31.709 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 16:30:07.569 DEBUG [qtp1309176095-284/vac/admin] com.haulmont.cuba.web.App - Ping middleware session
+2020-09-29 16:35:12.796 INFO  [Thread-0] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1f97cf0d{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+2020-09-29 16:35:12.798 INFO  [Thread-0] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3a44431a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+2020-09-29 16:35:12.799 INFO  [Thread-0] org.eclipse.jetty.server.session - node0 Stopped scavenging
+2020-09-29 16:35:12.813 INFO  [Thread-0] org.eclipse.jetty.server.handler.ContextHandler.vac - Destroying Spring FrameworkServlet 'rest_api'
+2020-09-29 16:35:12.824 INFO  [Thread-0] org.eclipse.jetty.server.handler.ContextHandler.vac - Destroying Spring FrameworkServlet 'dispatcher'
+2020-09-29 16:35:12.828 INFO  [Thread-0] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
+2020-09-29 16:35:40.739 INFO  [main] org.eclipse.jetty.util.log - Logging initialized @870ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-09-29 16:35:40.865 WARN  [main] org.eclipse.jetty.xml.XmlConfiguration - Deprecated constructor public org.eclipse.jetty.util.ssl.SslContextFactory() in jar:file:/C:/Users/admin/StudioProjects/vac/docker-image/vac.jar!/jetty.xml
+2020-09-29 16:35:40.994 INFO  [main] org.eclipse.jetty.server.Server - jetty-9.4.z-SNAPSHOT; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 11.0.8+10-LTS
+2020-09-29 16:35:41.114 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /vac-core, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2020-09-29 16:35:41.152 INFO  [main] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-09-29 16:35:41.154 INFO  [main] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-09-29 16:35:41.169 INFO  [main] org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2020-09-29 16:35:41.181 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'core' block, servlet context path: /vac-core
+2020-09-29 16:35:41.264 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba, com.haulmont.addon.restapi]
+2020-09-29 16:35:41.331 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/vac/app.properties
+2020-09-29 16:35:41.333 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2020-09-29 16:35:41.343 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: vac-core
+2020-09-29 16:35:41.492 INFO  [main] com.haulmont.cuba.core.sys.AppContextLoader - DbmsType of the main database is set to postgres
+2020-09-29 16:35:41.554 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.DataStoresCheck - Checking connection to data store Main
+2020-09-29 16:35:41.917 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on core module completed successfully
+2020-09-29 16:35:42.051 INFO  [main] com.haulmont.cuba.core.sys.persistence.PersistenceConfigProcessor - Creating file C:\Users\admin\StudioProjects\vac\docker-image\vac-core\work\persistence.xml
+2020-09-29 16:35:44.990 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Starting...
+2020-09-29 16:35:45.177 INFO  [main] com.zaxxer.hikari.HikariDataSource - Connection Pool-Main - Start completed.
+2020-09-29 16:35:47.567 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-09-29 16:35:47.669 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'restapi_scheduler'
+2020-09-29 16:35:47.748 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [vac-core.cuba:type=PersistenceManager, vac-core.cuba:type=ConfigStorage, vac-core.cuba:type=UserSessions, vac-core.cuba:type=UniqueNumbers, vac-core.cuba:type=Emailer, vac-core.cuba:type=EntityLog, vac-core.cuba:type=FileStorage, vac-core.cuba:type=LockManager, vac-core.cuba:type=CachingFacade, vac-core.cuba:type=ClusterManager, vac-core.cuba:type=ScriptingManager, vac-core.cuba:type=ServerInfo, vac-core.cuba:type=Scheduling, vac-core.cuba:type=PasswordEncryptionSupport, vac-core.cuba:type=JmxNodeIdentifier, vac-core.cuba:type=JmxLogControl, vac-core.cuba:type=ClassLoaderManager, vac-core.cuba:type=StatisticsCounter, vac-core.cuba:type=BruteForceProtection, vac-core.cuba:type=QueryCacheSupport]
+2020-09-29 16:35:47.894 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [vac-core.restapi:type=ServerTokenStore]
+2020-09-29 16:35:47.915 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-09-29 16:35:48.239 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 320 ms
+2020-09-29 16:35:48.626 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Updating data store [Main] ...
+2020-09-29 16:35:48.865 INFO  [main] com.haulmont.cuba.core.sys.dbupdate.DbUpdaterEngine - Data store [Main] is up-to-date
+2020-09-29 16:35:48.871 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Initialize anonymous sessions
+2020-09-29 16:35:49.513 INFO  [main/vac-core/server] com.haulmont.cuba.core.app.ConfigStorage - Loading DB-stored app properties cache
+2020-09-29 16:35:49.927 INFO  [main/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 8c15e999-9358-dbf8-30db-30d05c4cefaf [anonymous]
+2020-09-29 16:35:49.929 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope GENERIC_UI initialized with id 8c15e999-9358-dbf8-30db-30d05c4cefaf
+2020-09-29 16:35:49.953 INFO  [main/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 53654e7b-3396-f28b-04d8-9b66fd44ab60 [anonymous]
+2020-09-29 16:35:49.953 DEBUG [main] com.haulmont.cuba.security.auth.AnonymousSessionHolder - Anonymous session for scope REST initialized with id 53654e7b-3396-f28b-04d8-9b66fd44ab60
+2020-09-29 16:35:49.974 INFO  [main/vac-core/server] com.haulmont.cuba.security.app.role.PredefinedRoleDefinitionRepository - Initializing predefined role definitions
+2020-09-29 16:35:50.010 INFO  [main/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 0f206bb5-5e79-4bff-cfd2-1c6f67ad64cb [admin]
+2020-09-29 16:35:50.013 INFO  [main/vac-core/admin] com.haulmont.cuba.core.sys.AbstractViewRepository - Initializing views
+2020-09-29 16:35:50.044 DEBUG [main/vac-core/admin] com.haulmont.cuba.core.app.StoreFactory - No implementation is specified for _MAIN_ store, using RdbmsStore
+2020-09-29 16:35:50.067 DEBUG [main/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - loadList: metaClass=sec$SessionLogEntry, view=com.haulmont.cuba.security.entity.SessionLogEntry/sessionLogEntry-view, query=Query{queryString='select e from sec$SessionLogEntry e where e.finishedTs is null', condition=null, sort=null, firstResult=0, maxResults=0}
+2020-09-29 16:35:50.141 INFO  [main/vac-core/admin] com.haulmont.cuba.security.app.UserSessionLogBean - Dead session records have been closed
+2020-09-29 16:35:50.144 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-09-29 16:35:50.174 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler.vac_core - Initializing Spring RemotingServlet 'remoting'
+2020-09-29 16:35:50.175 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Initializing Servlet 'remoting'
+2020-09-29 16:35:50.236 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemoteServicesBeanCreator - Configuring remote services
+2020-09-29 16:35:50.335 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 16:35:50.733 INFO  [main] com.haulmont.cuba.core.sys.remoting.RemotingServlet - Completed initialization in 551 ms
+2020-09-29 16:35:50.737 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@6bc407fd{/vac-core,jar:file:/C:/Users/admin/StudioProjects/vac/docker-image/vac.jar!/LIB-INF/app-core,AVAILABLE}
+2020-09-29 16:35:50.753 INFO  [main] org.eclipse.jetty.webapp.StandardDescriptorProcessor - NO JSP Support for /vac, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2020-09-29 16:35:50.891 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Initializing 'web' block, servlet context path: /vac
+2020-09-29 16:35:50.909 INFO  [main] com.haulmont.cuba.core.sys.AppComponents - Using app components: [com.haulmont.cuba, com.haulmont.addon.restapi]
+2020-09-29 16:35:50.914 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from classpath:com/company/vac/web-app.properties
+2020-09-29 16:35:50.916 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - Loading app properties from /WEB-INF/local.app.properties
+2020-09-29 16:35:50.918 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - cuba.webContextName: vac
+2020-09-29 16:35:50.923 INFO  [main] com.haulmont.cuba.core.sys.environmentcheck.EnvironmentChecksRunner - Environment checks on web module completed successfully
+2020-09-29 16:35:51.303 WARN  [cuba_core_scheduler-5] com.haulmont.cuba.core.jmx.StatisticsCounter - Ñonnection pool not found for statistics counting
+2020-09-29 16:35:53.138 INFO  [main] com.haulmont.cuba.core.sys.remoting.discovery.StaticServerSelector - Server URLs: [http://localhost:8080/vac-core/remoting]
+2020-09-29 16:35:53.150 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [cuba_AuthenticationService, cuba_TrustedClientService, cuba_ServerInfoService, cuba_UserSettingService, cuba_UserManagementService, cuba_DataService, cuba_ConfigStorageService, cuba_PersistenceManagerService, cuba_LockService, cuba_UserSessionService, cuba_FoldersService, cuba_EmailService, cuba_FileStorageService, cuba_EntitySnapshotService, cuba_UniqueNumbersService, cuba_LocalizedMessageService, cuba_ResourceService, cuba_ScheduledTasksService, cuba_EntityLogService, cuba_TestingService, cuba_DomainDescriptionService, cuba_RelatedEntitiesService, cuba_EntitySqlGenerationService, cuba_NumberIdService, cuba_QueryResultsService, cuba_DynamicAttributesCacheService, cuba_EntityRestoreService, cuba_LocalFileExchangeService, cuba_EntityImportExportService, cuba_ConstraintLocalizationService, cuba_AttributeAccessService, cuba_ExceptionReportService, cuba_BulkEditorDataService, cuba_PersistenceSecurityService, cuba_AccessGroupsService, cuba_AttributeOptionsLoaderService, cuba_RolesService, cuba_SecurityScopesService]
+2020-09-29 16:35:53.152 INFO  [main] com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator - Configuring proxy beans for local service invocations: [restapi_ServerTokenStore]
+2020-09-29 16:35:54.516 INFO  [main] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Initializing ExecutorService 'scheduler'
+2020-09-29 16:35:54.690 INFO  [main] com.haulmont.cuba.core.sys.jmx.MBeanExporter - Registering beans for JMX exposure: [vac.cuba:type=ConfigStorage, vac.cuba:type=CachingFacade, vac.cuba:type=FileUploading, vac.cuba:type=JmxNodeIdentifier, vac.cuba:type=JmxLogControl, vac.cuba:type=ClassLoaderManager, vac.cuba:type=StatisticsCounter]
+2020-09-29 16:35:54.770 DEBUG [main] com.haulmont.cuba.gui.components.impl.ActionsImpl - Actions initialized in 51 ms
+2020-09-29 16:35:54.771 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Initializing metadata
+2020-09-29 16:35:54.958 INFO  [main] com.haulmont.cuba.core.sys.MetadataImpl - Metadata initialized in 183 ms
+2020-09-29 16:35:55.020 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler.vac - Initializing Spring RestAPIDispatcherServlet 'rest_api'
+2020-09-29 16:35:55.022 INFO  [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Initializing Servlet 'rest_api'
+2020-09-29 16:35:55.026 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - getContextConfigLocation - start:
+2020-09-29 16:35:55.639 DEBUG [main] org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+2020-09-29 16:35:56.677 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Detected CommonsMultipartResolver
+2020-09-29 16:35:56.683 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Detected CommonsMultipartResolver
+2020-09-29 16:35:56.686 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Published WebApplicationContext of servlet 'rest_api' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.rest_api]
+2020-09-29 16:35:56.686 DEBUG [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-09-29 16:35:56.686 INFO  [main] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Completed initialization in 1662 ms
+2020-09-29 16:35:56.693 INFO  [main] com.haulmont.cuba.core.sys.AbstractWebAppContextLoader - AppContext started
+2020-09-29 16:35:56.699 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler.vac - Initializing Spring CubaDispatcherServlet 'dispatcher'
+2020-09-29 16:35:56.701 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Initializing Servlet 'dispatcher'
+2020-09-29 16:35:56.814 INFO  [main] com.haulmont.cuba.web.sys.CubaDispatcherServlet - Completed initialization in 113 ms
+2020-09-29 16:35:56.816 INFO  [main] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@6b57ac6a{/vac,jar:file:/C:/Users/admin/StudioProjects/vac/docker-image/vac.jar!/LIB-INF/app,AVAILABLE}
+2020-09-29 16:35:56.846 INFO  [main] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1f97cf0d{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+2020-09-29 16:35:57.184 INFO  [main] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@1e3a421(jetty,h=[],w=[]) for SslContextFactory@7e24fc5b[provider=null,keyStore=file:///C:/Users/admin/StudioProjects/vac/docker-image/keystore.jks,trustStore=file:///C:/Users/admin/StudioProjects/vac/docker-image/keystore.jks]
+2020-09-29 16:35:57.455 INFO  [main] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@3a44431a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+2020-09-29 16:35:57.457 INFO  [main] org.eclipse.jetty.server.Server - Started @17591ms
+2020-09-29 16:35:58.097 WARN  [qtp1309176095-20] com.vaadin.server.DefaultDeploymentConfiguration - 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+2020-09-29 16:36:15.763 DEBUG [qtp1309176095-20] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - POST "/vac/rest/v2/oauth/token", parameters={masked}
+2020-09-29 16:36:15.789 WARN  [qtp1309176095-20] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:36:16.005 INFO  [qtp1309176095-20/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 81c5aaab-e451-18e4-77aa-917b222997c4 [admin]
+2020-09-29 16:36:16.015 DEBUG [qtp1309176095-20/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-6819e1b3-b3c2-e965-bb92-27dead789a8e [new]], removeInstances=[]
+2020-09-29 16:36:16.035 DEBUG [qtp1309176095-20/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@74083950
+2020-09-29 16:36:16.035 DEBUG [qtp1309176095-20/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@74083950 updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-6819e1b3-b3c2-e965-bb92-27dead789a8e [new,managed]]
+2020-09-29 16:36:16.036 DEBUG [qtp1309176095-20/vac-core/admin] com.haulmont.cuba.security.app.EntityLog - Loading entities
+2020-09-29 16:36:16.048 DEBUG [qtp1309176095-20/vac-core/admin] com.haulmont.cuba.security.app.EntityLog - Loaded: entitiesAuto=0, entitiesManual=0
+2020-09-29 16:36:16.068 DEBUG [qtp1309176095-20/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@74083950
+2020-09-29 16:36:16.164 WARN  [qtp1309176095-20/vac/admin] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:36:16.181 INFO  [qtp1309176095-20/vac/admin] com.haulmont.addon.restapi.api.auth.ClientProxyTokenStore - REST API access token stored: [admin] ***-8a83c674adaf
+2020-09-29 16:36:16.305 DEBUG [qtp1309176095-20] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Completed 200 OK
+2020-09-29 16:36:32.410 DEBUG [qtp1309176095-21] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - POST "/vac/rest/v2/oauth/token", parameters={masked}
+2020-09-29 16:36:32.422 WARN  [qtp1309176095-21] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:36:32.630 INFO  [qtp1309176095-21/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 0ea77402-5cef-4de4-38a9-7a8257321de0 [admin]
+2020-09-29 16:36:32.633 DEBUG [qtp1309176095-21/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-2588eb42-6e78-5255-dc6a-8219261fb2a5 [new]], removeInstances=[]
+2020-09-29 16:36:32.634 DEBUG [qtp1309176095-21/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@165c95d9
+2020-09-29 16:36:32.634 DEBUG [qtp1309176095-21/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@165c95d9 updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-2588eb42-6e78-5255-dc6a-8219261fb2a5 [new,managed]]
+2020-09-29 16:36:32.640 DEBUG [qtp1309176095-21/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@165c95d9
+2020-09-29 16:36:32.654 WARN  [qtp1309176095-21/vac/admin] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:36:32.659 INFO  [qtp1309176095-21/vac/admin] com.haulmont.addon.restapi.api.auth.ClientProxyTokenStore - REST API access token stored: [admin] ***-251faa1fcb48
+2020-09-29 16:36:32.666 DEBUG [qtp1309176095-21] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Completed 200 OK
+2020-09-29 16:38:30.912 DEBUG [qtp1309176095-25] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - POST "/vac/rest/v2/oauth/token", parameters={masked}
+2020-09-29 16:38:30.924 WARN  [qtp1309176095-25] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:38:31.131 INFO  [qtp1309176095-25/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 6851b6fc-36e1-e5b6-9fc8-9f78c595a61f [vacSync]
+2020-09-29 16:38:31.133 DEBUG [qtp1309176095-25/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-f04906af-f20a-3163-e24b-7fe46748a4b3 [new]], removeInstances=[]
+2020-09-29 16:38:31.135 DEBUG [qtp1309176095-25/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@5e24c243
+2020-09-29 16:38:31.135 DEBUG [qtp1309176095-25/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@5e24c243 updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-f04906af-f20a-3163-e24b-7fe46748a4b3 [new,managed]]
+2020-09-29 16:38:31.141 DEBUG [qtp1309176095-25/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@5e24c243
+2020-09-29 16:38:31.151 WARN  [qtp1309176095-25/vac/vacSync] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:38:31.154 INFO  [qtp1309176095-25/vac/vacSync] com.haulmont.addon.restapi.api.auth.ClientProxyTokenStore - REST API access token stored: [vacSync] ***-be2a6604a551
+2020-09-29 16:38:31.159 DEBUG [qtp1309176095-25] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Completed 200 OK
+2020-09-29 16:38:41.975 DEBUG [qtp1309176095-24] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - POST "/vac/rest/v2/oauth/token", parameters={masked}
+2020-09-29 16:38:41.988 WARN  [qtp1309176095-24] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:38:42.168 INFO  [qtp1309176095-24/vac-core/server] com.haulmont.cuba.security.auth.AuthenticationManagerBean - Logged in: 7831c362-94ab-4367-da42-9ba41f499103 [vacSync]
+2020-09-29 16:38:42.171 DEBUG [qtp1309176095-24/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-9201d8f7-9474-7444-134d-4d61e4a61fd3 [new]], removeInstances=[]
+2020-09-29 16:38:42.172 DEBUG [qtp1309176095-24/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@3bbd57a8
+2020-09-29 16:38:42.172 DEBUG [qtp1309176095-24/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@3bbd57a8 updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-9201d8f7-9474-7444-134d-4d61e4a61fd3 [new,managed]]
+2020-09-29 16:38:42.178 DEBUG [qtp1309176095-24/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@3bbd57a8
+2020-09-29 16:38:42.190 WARN  [qtp1309176095-24/vac/vacSync] com.haulmont.addon.restapi.api.common.RestAuthUtils - Locale en_US passed in the Accept-Language header is not supported by the application. It was ignored.
+2020-09-29 16:38:42.192 INFO  [qtp1309176095-24/vac/vacSync] com.haulmont.addon.restapi.api.auth.ClientProxyTokenStore - REST API access token stored: [vacSync] ***-fb37200cb202
+2020-09-29 16:38:42.198 DEBUG [qtp1309176095-24] com.haulmont.addon.restapi.api.rest.RestAPIDispatcherServlet - Completed 200 OK
+2020-09-29 16:45:47.899 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 16:55:47.897 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 17:05:47.894 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 17:06:17.896 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.security.app.UserSessions - Removing session due to timeout: 81c5aaab-e451-18e4-77aa-917b222997c4 [admin], since: Tue Sep 29 16:36:16 MSK 2020, lastUsed: Tue Sep 29 16:36:16 MSK 2020
+2020-09-29 17:06:17.905 DEBUG [cuba_core_scheduler-3/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=sec$SessionLogEntry, id=null, view=com.haulmont.cuba.security.entity.SessionLogEntry/sessionLogEntry-view
+2020-09-29 17:06:18.025 DEBUG [cuba_core_scheduler-3/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-6819e1b3-b3c2-e965-bb92-27dead789a8e [detached]], removeInstances=[]
+2020-09-29 17:06:18.038 DEBUG [cuba_core_scheduler-3/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@4bae434b
+2020-09-29 17:06:18.039 DEBUG [cuba_core_scheduler-3/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@4bae434b updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-6819e1b3-b3c2-e965-bb92-27dead789a8e [managed]]
+2020-09-29 17:06:18.049 DEBUG [cuba_core_scheduler-3/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@4bae434b
+2020-09-29 17:06:37.906 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.security.app.UserSessions - Removing session due to timeout: 0ea77402-5cef-4de4-38a9-7a8257321de0 [admin], since: Tue Sep 29 16:36:32 MSK 2020, lastUsed: Tue Sep 29 16:36:32 MSK 2020
+2020-09-29 17:06:37.924 DEBUG [cuba_core_scheduler-2/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=sec$SessionLogEntry, id=null, view=com.haulmont.cuba.security.entity.SessionLogEntry/sessionLogEntry-view
+2020-09-29 17:06:38.022 DEBUG [cuba_core_scheduler-2/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-2588eb42-6e78-5255-dc6a-8219261fb2a5 [detached]], removeInstances=[]
+2020-09-29 17:06:38.028 DEBUG [cuba_core_scheduler-2/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@374fea26
+2020-09-29 17:06:38.028 DEBUG [cuba_core_scheduler-2/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@374fea26 updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-2588eb42-6e78-5255-dc6a-8219261fb2a5 [managed]]
+2020-09-29 17:06:38.033 DEBUG [cuba_core_scheduler-2/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@374fea26
+2020-09-29 17:08:37.893 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.security.app.UserSessions - Removing session due to timeout: 6851b6fc-36e1-e5b6-9fc8-9f78c595a61f [vacSync], since: Tue Sep 29 16:38:31 MSK 2020, lastUsed: Tue Sep 29 16:38:31 MSK 2020
+2020-09-29 17:08:37.897 DEBUG [cuba_core_scheduler-8/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=sec$SessionLogEntry, id=null, view=com.haulmont.cuba.security.entity.SessionLogEntry/sessionLogEntry-view
+2020-09-29 17:08:37.918 DEBUG [cuba_core_scheduler-8/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-f04906af-f20a-3163-e24b-7fe46748a4b3 [detached]], removeInstances=[]
+2020-09-29 17:08:37.923 DEBUG [cuba_core_scheduler-8/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@5d0eb2b7
+2020-09-29 17:08:37.924 DEBUG [cuba_core_scheduler-8/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@5d0eb2b7 updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-f04906af-f20a-3163-e24b-7fe46748a4b3 [managed]]
+2020-09-29 17:08:37.927 DEBUG [cuba_core_scheduler-8/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@5d0eb2b7
+2020-09-29 17:08:47.908 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.security.app.UserSessions - Removing session due to timeout: 7831c362-94ab-4367-da42-9ba41f499103 [vacSync], since: Tue Sep 29 16:38:42 MSK 2020, lastUsed: Tue Sep 29 16:38:42 MSK 2020
+2020-09-29 17:08:47.958 DEBUG [cuba_core_scheduler-6/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - load: metaClass=sec$SessionLogEntry, id=null, view=com.haulmont.cuba.security.entity.SessionLogEntry/sessionLogEntry-view
+2020-09-29 17:08:48.061 DEBUG [cuba_core_scheduler-6/vac-core/admin] com.haulmont.cuba.core.app.RdbmsStore - commit: commitInstances=[com.haulmont.cuba.security.entity.SessionLogEntry-9201d8f7-9474-7444-134d-4d61e4a61fd3 [detached]], removeInstances=[]
+2020-09-29 17:08:48.067 DEBUG [cuba_core_scheduler-6/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Created SavedEntitiesHolder@451fbaf3
+2020-09-29 17:08:48.067 DEBUG [cuba_core_scheduler-6/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - SavedEntitiesHolder@451fbaf3 updates entities: [com.haulmont.cuba.security.entity.SessionLogEntry-9201d8f7-9474-7444-134d-4d61e4a61fd3 [managed]]
+2020-09-29 17:08:48.071 DEBUG [cuba_core_scheduler-6/vac-core/admin] com.haulmont.cuba.core.app.SavedEntitiesHolder - Released SavedEntitiesHolder@451fbaf3
+2020-09-29 17:15:47.914 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 17:25:47.894 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 17:35:47.895 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 17:45:47.898 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 17:55:47.894 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 18:05:47.899 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 18:15:47.897 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 18:25:47.895 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 18:35:47.898 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 18:45:47.894 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 18:55:47.895 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 19:05:47.959 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 19:15:47.899 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 19:25:47.895 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 19:35:47.896 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 19:45:47.903 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 19:55:47.898 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 20:05:47.904 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 20:15:47.894 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 20:25:47.901 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 20:35:47.895 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 20:45:47.895 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 20:55:47.909 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 21:05:47.895 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 21:15:47.897 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 21:25:47.895 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 21:35:47.900 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 21:45:47.897 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 21:55:47.895 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 22:05:47.895 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 22:15:47.900 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 22:25:47.894 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 22:35:47.898 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 22:45:47.904 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 22:55:47.904 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 23:05:47.895 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 23:15:47.895 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 23:25:47.895 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 23:35:47.895 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 23:45:47.900 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-09-29 23:55:47.895 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions

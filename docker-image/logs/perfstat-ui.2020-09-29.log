@@ -1,0 +1,940 @@
+Performance Statistics   2020-09-29 15:18:00 - 2020-09-29 15:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.sec$User.browse                              1218,0        1218        1218         0,0           1
+login#afterShow                                          0,0           0           0         0,0           1
+login#beforeShow                                         2,0           2           2         0,0           1
+login#create                                            67,0          67          67         0,0           1
+login#init                                              18,0          18          18         0,0           1
+login#inject                                            51,0          51          51         0,0           1
+login#load                                             422,0         422         422         0,0           1
+login#uiPermissions                                      1,0           1           1         0,0           1
+login#xml                                               10,0          10          10         0,0           1
+lookupWindowActions#create                              10,0          10          10         0,0           1
+lookupWindowActions#inject                               6,0           6           6         0,0           1
+lookupWindowActions#load                                 6,0           6           6         0,0           1
+lookupWindowActions#xml                                  0,5           0           1         0,5           2
+main#afterShow                                           5,0           5           5         0,0           1
+main#beforeShow                                          0,0           0           0         0,0           1
+main#create                                             17,0          17          17         0,0           1
+main#init                                                9,0           9           9         0,0           1
+main#inject                                              4,0           4           4         0,0           1
+main#load                                              114,0         114         114         0,0           1
+main#uiPermissions                                       0,0           0           0         0,0           1
+main#xml                                                 4,0           4           4         0,0           1
+sec$User.browse#afterShow                                0,0           0           0         0,0           1
+sec$User.browse#beforeShow                               0,0           0           0         0,0           1
+sec$User.browse#create                                  12,0          12          12         0,0           1
+sec$User.browse#init                                    24,0          24          24         0,0           1
+sec$User.browse#inject                                  21,0          21          21         0,0           1
+sec$User.browse#load                                   596,0         596         596         0,0           1
+sec$User.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$User.browse#xml                                      4,5           0           9         4,5           2
+sec$User.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse@usersDs                                332,0         332         332         0,0           1
+
+Performance Statistics   2020-09-29 15:20:00 - 2020-09-29 15:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:22:00 - 2020-09-29 15:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:24:00 - 2020-09-29 15:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+editWindowActions#create                                 6,0           6           6         0,0           1
+editWindowActions#xml                                    1,0           0           2         1,0           2
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 7,0           7           7         0,0           1
+sec$User.edit#companion                                  1,0           1           1         0,0           1
+sec$User.edit#create                                     8,0           8           8         0,0           1
+sec$User.edit#init                                     162,0         162         162         0,0           1
+sec$User.edit#inject                                    14,0          14          14         0,0           1
+sec$User.edit#load                                     511,0         511         511         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                        1,8           0           8         3,1           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       0,0           0           0         0,0           1
+sec$User.edit.windowActions#load                         1,0           1           1         0,0           1
+
+Performance Statistics   2020-09-29 15:26:00 - 2020-09-29 15:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:28:00 - 2020-09-29 15:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+lookupWindowActions#create                               3,0           3           3         0,0           1
+lookupWindowActions#inject                               0,0           0           0         0,0           1
+lookupWindowActions#load                                 4,0           4           4         0,0           1
+lookupWindowActions#xml                                  1,0           1           1         0,0           2
+sec$Role.lookup#afterShow                                0,0           0           0         0,0           1
+sec$Role.lookup#beforeShow                               8,0           8           8         0,0           1
+sec$Role.lookup#create                                  18,0          18          18         0,0           1
+sec$Role.lookup#init                                     4,0           4           4         0,0           1
+sec$Role.lookup#inject                                   8,0           8           8         0,0           1
+sec$Role.lookup#load                                   116,0         116         116         0,0           1
+sec$Role.lookup#uiPermissions                            0,0           0           0         0,0           1
+sec$Role.lookup#xml                                      7,4           0          25         9,4           5
+sec$Role.lookup.lookupWindowActions#init                 0,0           0           0         0,0           1
+
+Performance Statistics   2020-09-29 15:30:00 - 2020-09-29 15:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:32:00 - 2020-09-29 15:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:34:00 - 2020-09-29 15:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:36:00 - 2020-09-29 15:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:38:00 - 2020-09-29 15:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+login#afterShow                                          0,0           0           0         0,0           1
+login#beforeShow                                         0,0           0           0         0,0           1
+login#create                                             4,0           4           4         0,0           1
+login#init                                               1,0           1           1         0,0           1
+login#inject                                             0,0           0           0         0,0           1
+login#load                                              42,0          42          42         0,0           1
+login#uiPermissions                                      0,0           0           0         0,0           1
+login#xml                                                2,0           2           2         0,0           1
+
+Performance Statistics   2020-09-29 15:40:00 - 2020-09-29 15:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:42:00 - 2020-09-29 15:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:44:00 - 2020-09-29 15:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:46:00 - 2020-09-29 15:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:48:00 - 2020-09-29 15:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:50:00 - 2020-09-29 15:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:52:00 - 2020-09-29 15:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:54:00 - 2020-09-29 15:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:56:00 - 2020-09-29 15:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 15:58:00 - 2020-09-29 16:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:00:00 - 2020-09-29 16:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:02:00 - 2020-09-29 16:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:04:00 - 2020-09-29 16:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:06:00 - 2020-09-29 16:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:08:00 - 2020-09-29 16:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:10:00 - 2020-09-29 16:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.sec$SessionLogEntry.browse                    408,0         408         408         0,0           1
+MenuItem.sec$UserSessionEntity.browse                  477,0         477         477         0,0           1
+MenuItem.serverLog                                     428,0         428         428         0,0           1
+login#afterShow                                          0,0           0           0         0,0           1
+login#beforeShow                                         0,0           0           0         0,0           1
+login#create                                             2,0           2           2         0,0           1
+login#init                                               0,0           0           0         0,0           1
+login#inject                                             0,0           0           0         0,0           1
+login#load                                              16,0          16          16         0,0           1
+login#uiPermissions                                      0,0           0           0         0,0           1
+login#xml                                                1,0           1           1         0,0           1
+lookupWindowActions#create                               2,5           2           3         0,5           2
+lookupWindowActions#inject                               0,0           0           0         0,0           2
+lookupWindowActions#load                                 3,0           3           3         0,0           2
+lookupWindowActions#xml                                  1,3           0           3         1,3           4
+main#afterShow                                           3,0           3           3         0,0           1
+main#beforeShow                                          0,0           0           0         0,0           1
+main#create                                              9,0           9           9         0,0           1
+main#init                                                0,0           0           0         0,0           1
+main#inject                                              0,0           0           0         0,0           1
+main#load                                               18,0          18          18         0,0           1
+main#uiPermissions                                       0,0           0           0         0,0           1
+main#xml                                                 1,0           1           1         0,0           1
+sec$SessionLogEntry.browse#afterShow                     0,0           0           0         0,0           1
+sec$SessionLogEntry.browse#beforeShow                    0,0           0           0         0,0           1
+sec$SessionLogEntry.browse#create                        5,0           5           5         0,0           1
+sec$SessionLogEntry.browse#init                          4,0           4           4         0,0           1
+sec$SessionLogEntry.browse#inject                      104,0         104         104         0,0           1
+sec$SessionLogEntry.browse#load                        145,0         145         145         0,0           1
+sec$SessionLogEntry.browse#uiPermissions                 0,0           0           0         0,0           1
+sec$SessionLogEntry.browse#xml                          18,0           1          35        17,0           2
+sec$SessionLogEntry.browse.lookupWindowActions#init         0,0           0           0         0,0           1
+sec$SessionLogEntry.browse@sessionsDs                   37,5          28          47         9,5           2
+sec$UserSessionEntity.browse#afterShow                   0,0           0           0         0,0           1
+sec$UserSessionEntity.browse#beforeShow                  7,0           7           7         0,0           1
+sec$UserSessionEntity.browse#create                     25,0          25          25         0,0           1
+sec$UserSessionEntity.browse#init                        0,0           0           0         0,0           1
+sec$UserSessionEntity.browse#inject                     16,0          16          16         0,0           1
+sec$UserSessionEntity.browse#load                      283,0         283         283         0,0           1
+sec$UserSessionEntity.browse#uiPermissions               0,0           0           0         0,0           1
+sec$UserSessionEntity.browse#xml                        26,5          20          33         6,5           2
+sec$UserSessionEntity.browse.lookupWindowActions#init         0,0           0           0         0,0           1
+serverLog#afterShow                                      0,0           0           0         0,0           1
+serverLog#beforeShow                                     0,0           0           0         0,0           1
+serverLog#create                                        18,0          18          18         0,0           1
+serverLog#init                                          71,0          71          71         0,0           1
+serverLog#inject                                        14,0          14          14         0,0           1
+serverLog#load                                         144,0         144         144         0,0           1
+serverLog#uiPermissions                                  0,0           0           0         0,0           1
+serverLog#xml                                           53,5          25          82        28,5           2
+serverLog@jmxInstancesDs                                17,0          17          17         0,0           1
+
+Performance Statistics   2020-09-29 16:12:00 - 2020-09-29 16:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:14:00 - 2020-09-29 16:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+serverLogDownloadOptionsDialog#afterShow                 0,0           0           0         0,0           1
+serverLogDownloadOptionsDialog#beforeShow                0,0           0           0         0,0           1
+serverLogDownloadOptionsDialog#create                   71,0          71          71         0,0           1
+serverLogDownloadOptionsDialog#init                      2,0           2           2         0,0           1
+serverLogDownloadOptionsDialog#inject                    8,0           8           8         0,0           1
+serverLogDownloadOptionsDialog#load                     22,0          22          22         0,0           1
+serverLogDownloadOptionsDialog#uiPermissions             0,0           0           0         0,0           1
+serverLogDownloadOptionsDialog#xml                       1,8           0           5         1,9           5
+
+Performance Statistics   2020-09-29 16:16:00 - 2020-09-29 16:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:18:00 - 2020-09-29 16:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:20:00 - 2020-09-29 16:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:22:00 - 2020-09-29 16:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:24:00 - 2020-09-29 16:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+MenuItem.sec$User.browse                               249,0         249         249         0,0           1
+editWindowActions#create                                 6,0           6           6         0,0           1
+editWindowActions#xml                                    0,5           0           1         0,5           2
+lookupWindowActions#create                              11,5           2          21         9,5           2
+lookupWindowActions#inject                               1,0           0           2         1,0           2
+lookupWindowActions#load                                16,5           3          30        13,5           2
+lookupWindowActions#xml                                  4,5           0          17         7,2           4
+sec$Role.lookup#afterShow                                0,0           0           0         0,0           1
+sec$Role.lookup#beforeShow                               6,0           6           6         0,0           1
+sec$Role.lookup#create                                   3,0           3           3         0,0           1
+sec$Role.lookup#init                                     1,0           1           1         0,0           1
+sec$Role.lookup#inject                                   1,0           1           1         0,0           1
+sec$Role.lookup#load                                    27,0          27          27         0,0           1
+sec$Role.lookup#uiPermissions                            0,0           0           0         0,0           1
+sec$Role.lookup#xml                                      0,8           0           3         1,2           5
+sec$Role.lookup.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse#afterShow                                0,0           0           0         0,0           1
+sec$User.browse#beforeShow                               0,0           0           0         0,0           1
+sec$User.browse#create                                   6,0           6           6         0,0           1
+sec$User.browse#init                                     1,0           1           1         0,0           1
+sec$User.browse#inject                                   0,0           0           0         0,0           1
+sec$User.browse#load                                    40,0          40          40         0,0           1
+sec$User.browse#uiPermissions                            0,0           0           0         0,0           1
+sec$User.browse#xml                                      7,5           1          14         6,5           2
+sec$User.browse.lookupWindowActions#init                 0,0           0           0         0,0           1
+sec$User.browse@usersDs                                 58,0          58          58         0,0           1
+sec$User.edit#afterShow                                  0,0           0           0         0,0           1
+sec$User.edit#beforeShow                                 3,0           3           3         0,0           1
+sec$User.edit#companion                                  0,0           0           0         0,0           1
+sec$User.edit#create                                    27,0          27          27         0,0           1
+sec$User.edit#init                                      59,0          59          59         0,0           1
+sec$User.edit#inject                                     1,0           1           1         0,0           1
+sec$User.edit#load                                     326,0         326         326         0,0           1
+sec$User.edit#uiPermissions                              0,0           0           0         0,0           1
+sec$User.edit#xml                                       10,2           0          28        12,2           5
+sec$User.edit.windowActions#init                         0,0           0           0         0,0           1
+sec$User.edit.windowActions#inject                       2,0           2           2         0,0           1
+sec$User.edit.windowActions#load                         0,0           0           0         0,0           1
+
+Performance Statistics   2020-09-29 16:26:00 - 2020-09-29 16:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:28:00 - 2020-09-29 16:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:30:00 - 2020-09-29 16:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:32:00 - 2020-09-29 16:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:36:00 - 2020-09-29 16:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:38:00 - 2020-09-29 16:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:40:00 - 2020-09-29 16:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:42:00 - 2020-09-29 16:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:44:00 - 2020-09-29 16:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:46:00 - 2020-09-29 16:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:48:00 - 2020-09-29 16:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:50:00 - 2020-09-29 16:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:52:00 - 2020-09-29 16:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:54:00 - 2020-09-29 16:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:56:00 - 2020-09-29 16:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 16:58:00 - 2020-09-29 17:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:00:00 - 2020-09-29 17:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:02:00 - 2020-09-29 17:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:04:00 - 2020-09-29 17:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:06:00 - 2020-09-29 17:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:08:00 - 2020-09-29 17:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:10:00 - 2020-09-29 17:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:12:00 - 2020-09-29 17:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:14:00 - 2020-09-29 17:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:16:00 - 2020-09-29 17:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:18:00 - 2020-09-29 17:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:20:00 - 2020-09-29 17:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:22:00 - 2020-09-29 17:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:24:00 - 2020-09-29 17:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:26:00 - 2020-09-29 17:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:28:00 - 2020-09-29 17:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:30:00 - 2020-09-29 17:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:32:00 - 2020-09-29 17:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:34:00 - 2020-09-29 17:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:36:00 - 2020-09-29 17:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:38:00 - 2020-09-29 17:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:40:00 - 2020-09-29 17:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:42:00 - 2020-09-29 17:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:44:00 - 2020-09-29 17:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:46:00 - 2020-09-29 17:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:48:00 - 2020-09-29 17:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:50:00 - 2020-09-29 17:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:52:00 - 2020-09-29 17:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:54:00 - 2020-09-29 17:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:56:00 - 2020-09-29 17:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 17:58:00 - 2020-09-29 18:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:00:00 - 2020-09-29 18:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:02:00 - 2020-09-29 18:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:04:00 - 2020-09-29 18:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:06:00 - 2020-09-29 18:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:08:00 - 2020-09-29 18:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:10:00 - 2020-09-29 18:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:12:00 - 2020-09-29 18:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:14:00 - 2020-09-29 18:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:16:00 - 2020-09-29 18:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:18:00 - 2020-09-29 18:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:20:00 - 2020-09-29 18:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:22:00 - 2020-09-29 18:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:24:00 - 2020-09-29 18:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:26:00 - 2020-09-29 18:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:28:00 - 2020-09-29 18:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:30:00 - 2020-09-29 18:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:32:00 - 2020-09-29 18:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:34:00 - 2020-09-29 18:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:36:00 - 2020-09-29 18:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:38:00 - 2020-09-29 18:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:40:00 - 2020-09-29 18:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:42:00 - 2020-09-29 18:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:44:00 - 2020-09-29 18:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:46:00 - 2020-09-29 18:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:48:00 - 2020-09-29 18:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:50:00 - 2020-09-29 18:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:52:00 - 2020-09-29 18:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:54:00 - 2020-09-29 18:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:56:00 - 2020-09-29 18:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 18:58:00 - 2020-09-29 19:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:00:00 - 2020-09-29 19:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:02:00 - 2020-09-29 19:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:04:00 - 2020-09-29 19:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:06:00 - 2020-09-29 19:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:08:00 - 2020-09-29 19:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:10:00 - 2020-09-29 19:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:12:00 - 2020-09-29 19:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:14:00 - 2020-09-29 19:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:16:00 - 2020-09-29 19:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:18:00 - 2020-09-29 19:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:20:00 - 2020-09-29 19:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:22:00 - 2020-09-29 19:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:24:00 - 2020-09-29 19:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:26:00 - 2020-09-29 19:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:28:00 - 2020-09-29 19:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:30:00 - 2020-09-29 19:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:32:00 - 2020-09-29 19:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:34:00 - 2020-09-29 19:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:36:00 - 2020-09-29 19:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:38:00 - 2020-09-29 19:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:40:00 - 2020-09-29 19:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:42:00 - 2020-09-29 19:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:44:00 - 2020-09-29 19:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:46:00 - 2020-09-29 19:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:48:00 - 2020-09-29 19:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:50:00 - 2020-09-29 19:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:52:00 - 2020-09-29 19:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:54:00 - 2020-09-29 19:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:56:00 - 2020-09-29 19:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 19:58:00 - 2020-09-29 20:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:00:00 - 2020-09-29 20:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:02:00 - 2020-09-29 20:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:04:00 - 2020-09-29 20:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:06:00 - 2020-09-29 20:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:08:00 - 2020-09-29 20:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:10:00 - 2020-09-29 20:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:12:00 - 2020-09-29 20:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:14:00 - 2020-09-29 20:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:16:00 - 2020-09-29 20:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:18:00 - 2020-09-29 20:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:20:00 - 2020-09-29 20:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:22:00 - 2020-09-29 20:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:24:00 - 2020-09-29 20:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:26:00 - 2020-09-29 20:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:28:00 - 2020-09-29 20:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:30:00 - 2020-09-29 20:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:32:00 - 2020-09-29 20:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:34:00 - 2020-09-29 20:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:36:00 - 2020-09-29 20:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:38:00 - 2020-09-29 20:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:40:00 - 2020-09-29 20:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:42:00 - 2020-09-29 20:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:44:00 - 2020-09-29 20:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:46:00 - 2020-09-29 20:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:48:00 - 2020-09-29 20:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:50:00 - 2020-09-29 20:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:52:00 - 2020-09-29 20:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:54:00 - 2020-09-29 20:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:56:00 - 2020-09-29 20:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 20:58:00 - 2020-09-29 21:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:00:00 - 2020-09-29 21:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:02:00 - 2020-09-29 21:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:04:00 - 2020-09-29 21:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:06:00 - 2020-09-29 21:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:08:00 - 2020-09-29 21:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:10:00 - 2020-09-29 21:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:12:00 - 2020-09-29 21:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:14:00 - 2020-09-29 21:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:16:00 - 2020-09-29 21:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:18:00 - 2020-09-29 21:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:20:00 - 2020-09-29 21:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:22:00 - 2020-09-29 21:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:24:00 - 2020-09-29 21:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:26:00 - 2020-09-29 21:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:28:00 - 2020-09-29 21:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:30:00 - 2020-09-29 21:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:32:00 - 2020-09-29 21:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:34:00 - 2020-09-29 21:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:36:00 - 2020-09-29 21:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:38:00 - 2020-09-29 21:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:40:00 - 2020-09-29 21:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:42:00 - 2020-09-29 21:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:44:00 - 2020-09-29 21:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:46:00 - 2020-09-29 21:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:48:00 - 2020-09-29 21:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:50:00 - 2020-09-29 21:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:52:00 - 2020-09-29 21:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:54:00 - 2020-09-29 21:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:56:00 - 2020-09-29 21:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 21:58:00 - 2020-09-29 22:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:00:00 - 2020-09-29 22:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:02:00 - 2020-09-29 22:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:04:00 - 2020-09-29 22:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:06:00 - 2020-09-29 22:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:08:00 - 2020-09-29 22:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:10:00 - 2020-09-29 22:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:12:00 - 2020-09-29 22:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:14:00 - 2020-09-29 22:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:16:00 - 2020-09-29 22:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:18:00 - 2020-09-29 22:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:20:00 - 2020-09-29 22:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:22:00 - 2020-09-29 22:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:24:00 - 2020-09-29 22:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:26:00 - 2020-09-29 22:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:28:00 - 2020-09-29 22:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:30:00 - 2020-09-29 22:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:32:00 - 2020-09-29 22:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:34:00 - 2020-09-29 22:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:36:00 - 2020-09-29 22:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:38:00 - 2020-09-29 22:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:40:00 - 2020-09-29 22:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:42:00 - 2020-09-29 22:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:44:00 - 2020-09-29 22:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:46:00 - 2020-09-29 22:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:48:00 - 2020-09-29 22:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:50:00 - 2020-09-29 22:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:52:00 - 2020-09-29 22:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:54:00 - 2020-09-29 22:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:56:00 - 2020-09-29 22:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 22:58:00 - 2020-09-29 23:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:00:00 - 2020-09-29 23:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:02:00 - 2020-09-29 23:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:04:00 - 2020-09-29 23:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:06:00 - 2020-09-29 23:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:08:00 - 2020-09-29 23:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:10:00 - 2020-09-29 23:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:12:00 - 2020-09-29 23:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:14:00 - 2020-09-29 23:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:16:00 - 2020-09-29 23:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:18:00 - 2020-09-29 23:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:20:00 - 2020-09-29 23:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:22:00 - 2020-09-29 23:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:24:00 - 2020-09-29 23:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:26:00 - 2020-09-29 23:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:28:00 - 2020-09-29 23:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:30:00 - 2020-09-29 23:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:32:00 - 2020-09-29 23:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:34:00 - 2020-09-29 23:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:36:00 - 2020-09-29 23:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:38:00 - 2020-09-29 23:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:40:00 - 2020-09-29 23:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:42:00 - 2020-09-29 23:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:44:00 - 2020-09-29 23:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:46:00 - 2020-09-29 23:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:48:00 - 2020-09-29 23:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:50:00 - 2020-09-29 23:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:52:00 - 2020-09-29 23:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:54:00 - 2020-09-29 23:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2020-09-29 23:56:00 - 2020-09-29 23:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

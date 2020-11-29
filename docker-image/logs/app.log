@@ -1,0 +1,65 @@
+2020-10-09 00:06:49.854 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 00:16:49.849 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 00:26:49.850 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 00:36:49.850 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 00:46:49.852 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 00:56:49.852 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 01:06:49.855 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 01:16:49.849 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 01:26:49.854 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 01:36:49.858 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 01:46:49.854 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 01:56:49.852 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 02:06:49.853 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 02:16:49.849 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 02:26:49.850 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 02:36:49.852 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 02:46:49.852 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 02:56:49.860 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 03:06:49.850 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 03:16:49.850 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 03:26:49.853 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 03:36:49.849 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 03:46:49.851 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 03:56:49.855 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 04:06:49.852 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 04:16:49.854 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 04:26:49.853 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 04:36:49.851 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 04:46:49.858 DEBUG [cuba_core_scheduler-10] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 04:56:49.863 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 05:06:49.852 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 05:16:49.849 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 05:26:49.854 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 05:36:49.853 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 05:46:49.849 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 05:56:49.857 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 06:06:49.850 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 06:16:49.850 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 06:26:49.850 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 06:36:49.860 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 06:46:49.850 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 06:56:49.849 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 07:06:49.853 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 07:16:49.852 DEBUG [cuba_core_scheduler-5] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 07:26:49.850 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 07:36:49.852 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 07:46:49.850 DEBUG [cuba_core_scheduler-1] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 07:56:49.858 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 08:06:49.850 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 08:16:49.853 DEBUG [cuba_core_scheduler-8] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 08:26:49.851 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 08:36:49.858 DEBUG [cuba_core_scheduler-3] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 08:46:49.850 DEBUG [cuba_core_scheduler-6] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 08:56:49.849 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 09:06:49.850 DEBUG [cuba_core_scheduler-4] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 09:16:49.850 DEBUG [cuba_core_scheduler-2] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 09:26:49.850 DEBUG [cuba_core_scheduler-9] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-09 09:36:49.852 DEBUG [cuba_core_scheduler-7] com.haulmont.cuba.core.app.queryresults.QueryResultsManager - Delete query results for inactive user sessions
+2020-10-07 13:37:09.454 INFO  [qtp1309176095-25/vac/anonymous] com.haulmont.cuba.gui.config.WindowConfig - WindowConfig initialized in 247 ms
+2020-10-09 09:43:18.116 INFO  [Thread-0] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@1f97cf0d{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+2020-10-09 09:43:18.131 INFO  [Thread-0] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@3a44431a{SSL,[ssl, http/1.1]}{0.0.0.0:8443}
+2020-10-09 09:43:18.131 INFO  [Thread-0] org.eclipse.jetty.server.session - node0 Stopped scavenging
+2020-10-09 09:43:18.137 INFO  [Thread-0] org.eclipse.jetty.server.handler.ContextHandler.vac - Destroying Spring FrameworkServlet 'rest_api'
+2020-10-09 09:43:18.150 INFO  [Thread-0] org.eclipse.jetty.server.handler.ContextHandler.vac - Destroying Spring FrameworkServlet 'dispatcher'
+2020-10-09 09:43:18.160 INFO  [Thread-0] com.haulmont.cuba.core.sys.CubaThreadPoolTaskScheduler - Shutting down ExecutorService 'scheduler'
