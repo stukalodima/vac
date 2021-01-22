@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
 
+    <view entity="vac_Vacation" name="vacation-full-view" extends="_local">
+        <property name="application" view="_minimal"/>
+        <property name="decree" view="_minimal"/>
+    </view>
 </views>

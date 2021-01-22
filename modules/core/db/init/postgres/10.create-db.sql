@@ -17,6 +17,8 @@ create table VAC_VACATION (
     DAYS integer,
     VACATION_TYPE_ID varchar(255),
     DESCRIPTION varchar(255),
+    APPLICATION_ID uuid,
+    DECREE_ID uuid,
     --
     primary key (ID)
 )^

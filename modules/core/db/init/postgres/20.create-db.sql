@@ -1,1 +1,6 @@
-
+-- begin VAC_VACATION
+alter table VAC_VACATION add constraint FK_VAC_VACATION_ON_APPLICATION foreign key (APPLICATION_ID) references SYS_FILE(ID)^
+alter table VAC_VACATION add constraint FK_VAC_VACATION_ON_DECREE foreign key (DECREE_ID) references SYS_FILE(ID)^
+create index IDX_VAC_VACATION_ON_APPLICATION on VAC_VACATION (APPLICATION_ID)^
+create index IDX_VAC_VACATION_ON_DECREE on VAC_VACATION (DECREE_ID)^
+-- end VAC_VACATION

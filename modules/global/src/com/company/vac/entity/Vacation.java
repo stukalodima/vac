@@ -1,12 +1,13 @@
 package com.company.vac.entity;
 
 import com.haulmont.chile.core.annotations.NamePattern;
+import com.haulmont.cuba.core.entity.FileDescriptor;
 import com.haulmont.cuba.core.entity.StandardEntity;
+import com.haulmont.cuba.core.entity.annotation.PublishEntityChangedEvents;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
+@PublishEntityChangedEvents
 @Table(name = "VAC_VACATION")
 @Entity(name = "vac_Vacation")
 @NamePattern("%s|description")
@@ -36,6 +37,30 @@ public class Vacation extends StandardEntity {
 
     @Column(name = "DESCRIPTION")
     private String description;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "APPLICATION_ID")
+    private FileDescriptor application;
+
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "DECREE_ID")
+    private FileDescriptor decree;
+
+    public FileDescriptor getDecree() {
+        return decree;
+    }
+
+    public void setDecree(FileDescriptor decree) {
+        this.decree = decree;
+    }
+
+    public FileDescriptor getApplication() {
+        return application;
+    }
+
+    public void setApplication(FileDescriptor application) {
+        this.application = application;
+    }
 
     public String getDescription() {
         return description;
