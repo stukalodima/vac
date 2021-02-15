@@ -1,6 +1,7 @@
 package com.company.vac.listeners;
 
 import com.company.vac.entity.Vacation;
+import com.company.vac.entity.Vacation_1C;
 import com.haulmont.cuba.core.app.events.EntityChangedEvent;
 import com.haulmont.cuba.core.entity.contracts.Id;
 import com.haulmont.cuba.core.global.DataManager;
@@ -31,6 +32,16 @@ public class VacationChangedListener_1 {
 
         Vacation vacation = dataManager.load(entityId).view("_local").one();
 
+        Vacation_1C vacation_1C = new Vacation_1C();
+
+        vacation_1C.setDate(vacation.getDate());
+        vacation_1C.setCompany(vacation.getCompanyId());
+        vacation_1C.setEmployee(vacation.getEmployeeId());
+        vacation_1C.setStartDate(vacation.getStartDate());
+        vacation_1C.setEndDate(vacation.getEndDate());
+        vacation_1C.setVacationId(vacation.getVacationTypeId());
+        vacation_1C.setDocumentId(vacation.getId().toString());
+
         if (changeType == EntityChangedEvent.Type.CREATED) {
 
             MultiValueMap<String, String> headers = new LinkedMultiValueMap<String, String>();
@@ -40,7 +51,7 @@ public class VacationChangedListener_1 {
             RestTemplate restTemplate = new RestTemplate();
             restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
 
-            HttpEntity<Vacation> request = new HttpEntity<Vacation>(vacation, headers);
+            HttpEntity<Vacation_1C> request = new HttpEntity<Vacation_1C>(vacation_1C, headers);
 
             Boolean result = restTemplate.postForObject("http://c2shweb04/test28/hs/portal/doVacation", request, Boolean.class);
 
